@@ -1,0 +1,8 @@
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1 {
+  color: rgb(47, 61, 49);
+}

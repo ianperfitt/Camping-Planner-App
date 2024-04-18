@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul :not(:last-child) {
+  margin-right: 3px;
+}
+
+li {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: saddlebrown;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.active {
+  background-color: saddlebrown;
+  color: white;
+}
